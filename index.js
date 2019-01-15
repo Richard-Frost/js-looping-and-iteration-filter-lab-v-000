@@ -1,10 +1,10 @@
 
 function findMatching(collection, name) {
-  return collection.filter(function(driver) { return driver.toLowerCase() === name.toLowerCase();
+  collection.filter(function(driver) { return driver.toLowerCase() === name.toLowerCase();
   });
 }
 
-function findMatching(collection, name) {
+function findMatching1(collection, name) {
   let newDriver = []
   for (const driver of collection) 
     {if (driver.toLowerCase() === name.toLowerCase()) { newDriver.push(driver) }
