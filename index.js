@@ -1,6 +1,6 @@
 
 function findMatching(collection, name) {
-  a = collection.filter(function(driver) { return driver.toLowerCase() === name.toLowerCase();
+  a = collection.filter(function(driver) {  driver.toLowerCase() === name.toLowerCase();
   });
   return a 
 }
