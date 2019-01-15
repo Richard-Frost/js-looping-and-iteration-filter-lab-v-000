@@ -18,10 +18,10 @@ function fuzzyMatch(collection, name) { return collection.filter(function(driver
 
 function matchName(collection, name) {
   return collection.filter(function(driver) 
-  debugger;
+ 
   
   { return driver.toLowerCase() === name.toLowerCase();
   });
-  
+   debugger;
 }
 
