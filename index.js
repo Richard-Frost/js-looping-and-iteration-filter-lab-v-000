@@ -12,7 +12,7 @@ function findMatching(collection, name) {
   });
 }
 
-function fuzzyMatch(collection, name) return collection.filter(function(driver) { return driver.charAt(0) === name.charAt(0);
+function fuzzyMatch(collection, name) { return collection.filter(function(driver) { return driver.charAt(0) === name.charAt(0);
   });
 }
 
