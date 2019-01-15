@@ -8,7 +8,7 @@ function findMatching1(collection, name) {
 
 
 function findMatching(collection, name) {
-  return collection.filter(function(driver) { driver.toLowerCase() === name.toLowerCase();
+  return collection.filter(function(driver) { return driver.toLowerCase() === name.toLowerCase();
   });
 }
 
