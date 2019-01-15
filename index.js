@@ -6,6 +6,6 @@ function findMatching(collection, name) {
 
 function findMatching1(collection, name) {
   let new = []
-  for ()
+  for (constant element of collection) {if 
 }
 
