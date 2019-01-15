@@ -19,16 +19,11 @@ function fuzzyMatch(collection, name) { return collection.filter(function(driver
 function matchName(collection, name) {
    
   return collection.filter(function(driver)  
- 
-  
-  { return driver.name.toLowerCase() === name.toLowerCase
+  { 
+    return driver.name.toLowerCase() === name.toLowerCase;
   
   });
   
 }
-unction matchName (list, name) {
-  return list.filter(function (driver) {
-    return driver.name.toLowerCase() === name.toLowerCase();
-  });
-}
+
 
