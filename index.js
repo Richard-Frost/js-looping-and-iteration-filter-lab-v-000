@@ -17,11 +17,12 @@ function fuzzyMatch(collection, name) { return collection.filter(function(driver
 }
 
 function matchName(collection, name) {
-   debugger;
+   
   return collection.filter(function(driver)  
  
   
   { return driver === name
+  debugger;
   });
   
 }
