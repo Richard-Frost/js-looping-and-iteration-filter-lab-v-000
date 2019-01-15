@@ -21,8 +21,8 @@ function matchName(collection, name) {
   return collection.filter(function(driver)  
  
   
-  { return driver === name
-  debugger;
+  { debugger; return driver === name
+  
   });
   
 }
