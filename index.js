@@ -21,7 +21,7 @@ function matchName(collection, name) {
   return collection.filter(function(driver)  
  
   
-  { debugger; return driver === name
+  { return driver.name.toLowerCase() === name.toLowerCase
   
   });
   
