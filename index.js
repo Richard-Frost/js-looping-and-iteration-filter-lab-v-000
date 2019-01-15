@@ -1,7 +1,7 @@
 function findMatching1(collection, name) {
   let newDriver = []
   for (const driver of collection) 
-    {if (driver.toLowerCase() === name.toLowerCase()) { newDriver.push(driver) }
+    {if (driver === name) { newDriver.push(driver) }
     }
   return newDriver
 }
