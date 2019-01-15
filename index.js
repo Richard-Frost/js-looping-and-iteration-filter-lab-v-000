@@ -12,5 +12,7 @@ function findMatching(collection, name) {
   });
 }
 
-
+function fuzzyMatch(collection, name) return collectioncollection.filter(function(driver) { return driver.charAt(0) === name.charAt(0);
+  });
+}
 
