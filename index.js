@@ -1,10 +1,12 @@
 
 
 function findMatching(collection, name) {
-  let newDriverA = []
+  let newDriver = []
   for (const driver of collection) 
     {if (driver.toLowerCase() === name.toLowerCase()) { newDriver.push(driver) }
     }
   return newDriver
 }
+
+
 
